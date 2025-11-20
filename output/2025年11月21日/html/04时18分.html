@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 190</p><p>生成时间: 2025-11-21 04:18:53</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>news163</li><li>sina</li><li>sohu</li><li>qq</li><li>xinhuanet</li><li>people</li><li>cctv</li><li>caixin</li><li>jiuzhou</li><li>techweb</li><li>36kr</li><li>it168</li><li>github-trending</li><li>arxiv</li><li>techcrunch</li><li>reuters</li><li>bbc</li><li>cnn</li><li>nytimes</li><li>wsj</li><li>nature</li><li>science</li><li>scmp</li><li>theguardian</li><li>russian.rt</li><li>aljazeera</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word"># 国家新闻与政策 中国 北京 上海 深圳</td>
+                <td class="count">13</td>
+                <td class="percentage">6.84%</td>
+                <td class="titles">[知乎热榜] <a href="https://www.zhihu.com/question/1974889293995536646" target="_blank" class="news-link">全运会男乒团体赛，北京男团 3-1 胜上海夺冠，樊振东再胜王楚钦，如何看待本场比赛？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时18分</font><br>[微博热搜] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E4%B8%BA%E4%B8%AD%E5%9B%BD%E4%BD%93%E8%82%B2%E5%8A%A0%E6%B2%B9%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">一人一句为中国体育加油</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时18分</font><br>[微博热搜] <a href="https://s.weibo.com/weibo?q=%2350%E5%A4%9A%E4%B8%87%E5%90%8D%E4%B8%AD%E5%9B%BD%E6%B8%B8%E5%AE%A2%E5%8F%96%E6%B6%88%E5%8E%9F%E5%AE%9A%E6%97%A5%E6%9C%AC%E8%A1%8C%E7%A8%8B%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">50多万名中国游客取消原定日本行程</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时18分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%A8%80%E5%9C%9F%E7%A0%94%E7%A9%B6%E6%9C%89%E6%96%B0%E7%AA%81%E7%A0%B4" target="_blank" class="news-link">中国稀土研究有新突破</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时18分</font><br>[知乎热榜] <a href="https://www.zhihu.com/question/1974141271233754268" target="_blank" class="news-link">冲锋衣为什么会被网友们封为「北京市服」？是单纯的气候原因吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时18分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BD%E5%8C%BB%E7%96%97%E5%B1%95%E7%9B%92%E9%A5%AD%E8%87%B4200%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%AD%E6%AF%92" target="_blank" class="news-link">德国医疗展盒饭致200名中国人中毒</a> [6] <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7573841843969097734/" target="_blank" class="news-link">战败后日方首次对中国发出武力威胁</a> [10] <font color='grey'>- 04时18分</font><br>[微博热搜] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%97%E6%99%8B%E8%BF%99%E4%B8%80%E5%B9%B4%E9%83%BD%E5%9C%A8%E5%8C%97%E4%BA%AC%E7%85%A7%E9%A1%BE%E7%88%B6%E4%BA%B2%23&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">罗晋这一年都在北京照顾父亲</a> [11] <font color='grey'>- 04时18分</font><br>[知乎热榜] <a href="https://www.zhihu.com/question/1974898298826485824" target="_blank" class="news-link">全运会乒乓球男团决赛，北京马龙 3-0 上海周恺，如何评价这场关键战？</a> [15] <font color='grey'>- 04时18分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B9%92%E4%B9%93%E7%90%83%E7%94%B7%E5%9B%A2%E5%8C%97%E4%BA%AC%E5%A4%BA%E5%86%A0" target="_blank" class="news-link">乒乓球男团北京夺冠</a> [19] <font color='grey'>- 04时18分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%B2%A6%E4%B8%BA%E2%80%9C%E7%9F%BF%E5%A5%B4%E2%80%9D+%E4%BD%BF%E9%A6%86%E7%B4%A7%E6%80%A5%E6%8F%90%E9%86%92" target="_blank" class="news-link">中国公民沦为“矿奴” 使馆紧急提醒</a> [23] <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7574726692175249450/" target="_blank" class="news-link">200名中国展商在德吃中餐食物中毒</a> [24] <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7573798291926892595/" target="_blank" class="news-link">马龙王楚钦率北京队夺男团金牌</a> [30] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">贸易战 WTO IMF 世界银行 G7 G20 金砖国家 东盟 中东 沙特 以色列 巴勒斯坦 土耳其 叙利亚 阿富汗 朝鲜 半岛局势 日本 韩国 澳大利亚 加拿大 英国 法国 德国 意大利 巴西 墨西哥 阿根廷 南非 埃及 巴基斯坦 印尼 马来西亚 新加坡 泰国 越南 菲律宾</td>
+                <td class="count">8</td>
+                <td class="percentage">4.21%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%8F%8D%E5%AF%B9%E6%97%A5%E6%9C%AC+%E9%AB%98%E5%B8%82%E8%A2%AB%E5%98%98%E4%B8%8B%E5%8F%B0" target="_blank" class="news-link">日本反对日本 高市被嘘下台</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31996292" target="_blank" class="news-link">锐评｜高市挑衅言论意欲何为？中日学者揭示背后政治算计：短视行为必将反噬日本</a> [8] <font color='grey'>- 04时18分</font><br>[微博热搜] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%8F%8D%E5%AF%B9%E6%97%A5%E6%9C%AC%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">日本反对日本</a> [9] <font color='grey'>- 04时18分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%83%91%E4%B8%BD%E6%96%87%EF%BC%9A%E5%8F%B0%E6%B5%B7%E6%97%A0%E4%BA%8B+%E6%97%A5%E6%9C%AC%E6%89%8D%E8%83%BD%E6%97%A0%E4%BA%8B" target="_blank" class="news-link">郑丽文：台海无事 日本才能无事</a> [12] <font color='grey'>- 04时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32006870" target="_blank" class="news-link">视频丨超54万张飞往日本机票被取消，日本旅游遭遇“退订寒潮”</a> [14] <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7574481840094855218/" target="_blank" class="news-link">中方为何采购50万吨泰国大米</a> [18] <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7573660628330659890/" target="_blank" class="news-link">日本马上要没有大熊猫了</a> [25] <font color='grey'>- 04时18分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7574629911882088489/" target="_blank" class="news-link">美批准向日本出售精确制导滑翔炸弹</a> [26] <font color='grey'>- 04时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">一带一路 国际合作 外交 外交部 领事馆</td>
+                <td class="count">6</td>
+                <td class="percentage">3.16%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7573595895120445486/" target="_blank" class="news-link">俄罗斯外交部发言人警告高市早苗</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7574706330850770970/" target="_blank" class="news-link">外交部：请日方自重</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32005572" target="_blank" class="news-link">外交部：G20期间中方没有会见日方领导人的安排，请日方自重</a> [12] <font color='grey'>- 04时18分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E4%B8%BA%E4%BD%95%E8%AE%A9%E6%97%A5%E6%96%B9%E8%87%AA%E9%87%8D" target="_blank" class="news-link">外交部为何让日方自重</a> [20] <font color='grey'>- 04时18分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32005591" target="_blank" class="news-link">赖清德晒午餐吃日料表达对日本的支持，外交部回应</a> [20] <font color='grey'>- 04时18分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E8%AF%B7%E6%97%A5%E6%96%B9%E8%87%AA%E9%87%8D" target="_blank" class="news-link">外交部：请日方自重</a> [29] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word"># 国际格局与全球趋势 美国 俄罗斯 乌克兰 欧洲 北约 欧盟 伊朗</td>
+                <td class="count">5</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles">[B站热点] <a href="https://search.bilibili.com/all?keyword=%E4%BF%84%E7%BD%97%E6%96%AF%E8%A2%AB%E5%86%BB%E7%BB%93%E8%B5%84%E4%BA%A7%E8%BF%98%E8%83%BD%E8%A6%81%E5%9B%9E%E6%9D%A5%E5%90%97" target="_blank" class="news-link">俄罗斯被冻结资产还能要回来吗</a> [6] <font color='grey'>- 04时18分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759787" target="_blank" class="news-link">就在今晚！首个重大数据来了，&quot;姗姗来迟&quot;的美国9月非农会让降息&quot;重回视野&quot;吗？</a> [8] <font color='grey'>- 04时18分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759747" target="_blank" class="news-link">年内降息可能没了！美国10月非农不发布、11月报告意外在美联储12月会后发</a> [9] <font color='grey'>- 04时18分</font><br>[微博热搜] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%AF%B9%E4%B8%AD%E6%97%A5%E5%85%B3%E7%B3%BB%E6%8C%81%E8%B0%A8%E6%85%8E%E6%80%81%E5%BA%A6%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">美国对中日关系持谨慎态度</a> [15] <font color='grey'>- 04时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7574788792486202934/" target="_blank" class="news-link">欧洲国家集体反对美版俄乌和平方案</a> [29] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word"># 科技与人工智能 AI 人工智能 机器学习 深度学习 大模型 LLM GPT Transformer</td>
+                <td class="count">2</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759756" target="_blank" class="news-link">英伟达电话会：黄仁勋反击“我们看到的和AI泡沫截然相反”，公司订单能见度达5000亿美元，Rubin明年下半年推出</a> [7] <font color='grey'>- 04时18分</font><br>[B站热点] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%BF%BB%E5%94%B1AI%E6%AD%8C%E6%9B%B2%E7%BE%8E%E7%8C%B4%E4%BA%A1" target="_blank" class="news-link">UP主翻唱AI歌曲美猴亡</a> [18] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">就业 毕业生 就业率</td>
+                <td class="count">2</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759821" target="_blank" class="news-link">美国9月非农新增就业11.9万人大超预期，失业率意外升至4.4%创四年来最高纪录</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32005838" target="_blank" class="news-link">2026届高校毕业生规模预计1270万人，同比增加48万人</a> [10] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">Transformer架构 BERT RoBERTa GPT-3 GPT-4 Claude Gemini Qwen 通义千问 DeepSeek 文心一言 讯飞星火 星海 盘古 混元</td>
+                <td class="count">2</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles">[知乎热榜] <a href="https://www.zhihu.com/question/1974854700256944776" target="_blank" class="news-link">如何评价 Gemini3 误删 800G 重要文件，如何避免类似错误？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font><br><div class='new-title'>🆕 [微博热搜] <a href="https://s.weibo.com/weibo?q=Gemini3&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">Gemini3</a> [17] <font color='grey'>- 04时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[知乎热榜] <a href="https://www.zhihu.com/question/1973698606189008394" target="_blank" class="news-link">余承东首秀华为 Mate80 系列真机，双圆环设计亮眼，还有哪些设计值得关注？</a> [9] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">编程 Python Java C++ Go Rust</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎热榜] <a href="https://www.zhihu.com/question/367881424" target="_blank" class="news-link">MATLAB 在逐渐被 Python 淘汰吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">区块链 比特币 以太坊</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759753" target="_blank" class="news-link">英伟达财报提振效果昙花一现，标普500指数转跌，美债上扬，比特币跌破9万关口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>11</td>
+                <td class="word">网络安全 黑客 加密 隐私保护</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759700" target="_blank" class="news-link">科技股力撑美股反弹，英伟达绩后一度大涨6%，美元涨回100，加密货币盘中大跌</a> [6] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>12</td>
+                <td class="word"># 重点人物（科技界） 马云 马化腾 张朝阳 李彦宏 周鸿祎 雷军 刘强东 王兴 王传福 梁文锋 冯骥 稚晖君 智元 宇树 于东来 胖东来 余承东 何刚 胡厚昆 彭蕾 程维 沈南鹏 张一鸣 黄峥 李想 李斌 朱华荣 曾毓群 李书福 王健林 许家印 孙正义 埃隆·马斯克 杰夫·贝佐斯 拉里·佩奇 谢尔盖·布林 史蒂夫·乔布斯 比尔·盖茨 马克·扎克伯格 桑达尔·皮查伊 苏姿丰 黄仁勋 孙正义 田村宪久</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759751" target="_blank" class="news-link">英伟达上季营收加速增长62%，本季指引再超预期，黄仁勋称“Blackwell销量远超预期” | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>13</td>
+                <td class="word"># 公司与品牌 华为 荣耀 小米 OPPO vivo 苹果 Apple Google Meta Facebook Microsoft Amazon Tesla Intel AMD NVIDIA 英伟达 高通 台积电 三星 LG Sony Netflix Spotify TikTok 字节跳动 快手 B站 知乎 微博 抖音 小红书 拼多多 京东 阿里巴巴 蚂蚁集团 百度 网易 携程 美团 滴滴 蔚来 理想 小鹏 比亚迪 吉利 长安 长城 特斯拉 SpaceX OpenAI Anthropic Inflection AI DeepMind Stable Diffusion Midjourney Runway Perplexity AI Cohere Hugging Face Kaggle LeetCode Stack Overflow GitHub Reddit Twitter LinkedIn Quora Medium</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E5%9B%9E%E5%BA%94%E8%B5%B7%E8%AF%89%E6%97%A0%E5%BF%A7%E4%BC%A0%E5%AA%92" target="_blank" class="news-link">特斯拉回应起诉无忧传媒</a> [24] <font color='grey'>- 04时18分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 5 条)</h3>
+        <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7574629911882088489/" target="_blank" class="news-link">美批准向日本出售精确制导滑翔炸弹</a> [26]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3759753" target="_blank" class="news-link">英伟达财报提振效果昙花一现，标普500指数转跌，美债上扬，比特币跌破9万关口</a> <font color='red'><strong>[2]</strong></font></li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_32005591" target="_blank" class="news-link">赖清德晒午餐吃日料表达对日本的支持，外交部回应</a> [20]</li></ul><h4>知乎热榜 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/367881424" target="_blank" class="news-link">MATLAB 在逐渐被 Python 淘汰吗？</a> <font color='red'><strong>[3]</strong></font></li></ul><h4>微博热搜 (1 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=Gemini3&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">Gemini3</a> [17]</li></ul></div>
+    </body>
+    </html>
+    
